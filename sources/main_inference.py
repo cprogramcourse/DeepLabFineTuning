@@ -7,7 +7,8 @@ from PIL import Image
 import custom_model
 
 # Number of classes in the dataset
-num_classes = 5
+# num_classes = 5
+num_classes = 2
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
